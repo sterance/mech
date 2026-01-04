@@ -1,0 +1,22 @@
+<div hlmCard>
+  <div hlmCardHeader>
+    <h3 hlmCardTitle>{{ unit.name }}</h3>
+  </div>
+  <div hlmCardContent class="flex gap-4">
+    <div class="flex-shrink-0">
+      <img 
+        [src]="'units/' + getImageURL(unit.name) + '.jpg'" 
+        [alt]="unit.name"
+        class="rounded-lg"
+      />
+    </div>
+    <div class="flex-1 flex flex-col gap-2">
+      @for (technology of unit.technologies; track technology.id) {
+        <div class="flex justify-between">
+          <span>{{ technology.name }}</span>
+          <span>{{ technology.cost }}</span>
+        </div>
+      }
+    </div>
+  </div>
+</div>
