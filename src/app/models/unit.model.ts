@@ -12,7 +12,7 @@ export class Unit {
   static fromJson(json: { name: string; technologies: Array<{ name: string; cost: number }> }): Unit {
     return new Unit(
       json.name,
-      json.technologies.map(tech => Technology.fromJson(tech))
+      json.technologies.map(tech => new Technology(tech.name, tech.cost))
     );
   }
 }

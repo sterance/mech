@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import json
 import re
-import sys
 from pathlib import Path
 
 import requests
@@ -99,7 +98,7 @@ def main():
     with open(units_file, "r", encoding="utf-8") as f:
         units = json.load(f)
     
-    all_technologies = {}
+    all_technologies = set()
     units_with_techs = []
     
     for unit in units:
@@ -110,29 +109,31 @@ def main():
             html = fetch_unit_page(unit_name)
             technologies = extract_technologies(html)
             
-            unit_tech_names = []
+            unit_techs = []
             for tech in technologies:
                 tech_name = tech["name"]
-                unit_tech_names.append(tech_name)
-                
-                if tech_name not in all_technologies:
-                    all_technologies[tech_name] = tech["cost"]
+                tech_cost = tech["cost"]
+                unit_techs.append({
+                    "name": tech_name,
+                    "cost": tech_cost
+                })
+                all_technologies.add(tech_name)
             
             units_with_techs.append({
                 "name": unit_name,
-                "technologies": unit_tech_names
+                "technologies": unit_techs
             })
             
             print(f"  Found {len(technologies)} technologies")
         
         except Exception as e:
-            print(f"Error processing {unit_name}: {e}")
-            sys.exit(1)
+            print(f"  Failed: {e}")
+            units_with_techs.append({
+                "name": unit_name,
+                "technologies": []
+            })
     
-    technologies_list = [
-        {"name": name, "cost": cost}
-        for name, cost in sorted(all_technologies.items())
-    ]
+    technologies_list = sorted(list(all_technologies))
     
     with open(tech_file, "w", encoding="utf-8") as f:
         json.dump(technologies_list, f, indent=2, ensure_ascii=False)

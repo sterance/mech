@@ -18,6 +18,21 @@
       ],
       "@spartan-ng/helm/utils": [
         "./libs/ui/utils/src/index.ts"
+      ],
+      "@spartan-ng/helm/checkbox": [
+        "./libs/ui/checkbox/src/index.ts"
+      ],
+      "@spartan-ng/helm/icon": [
+        "./libs/ui/icon/src/index.ts"
+      ],
+      "@spartan-ng/helm/collapsible": [
+        "./libs/ui/collapsible/src/index.ts"
+      ],
+      "@spartan-ng/helm/input": [
+        "./libs/ui/input/src/index.ts"
+      ],
+      "@spartan-ng/helm/slider": [
+        "./libs/ui/slider/src/index.ts"
       ]
     }
   },

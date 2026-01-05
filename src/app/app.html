@@ -1,9 +1,24 @@
-<main class="main">
-  <div class="content">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      @for (unit of units; track unit.id) {
-        <app-unit-card [unit]="unit"></app-unit-card>
-      }
+<div class="flex h-screen relative app-container">
+  <app-filter
+    [(searchText)]="searchText"
+    [(minCost)]="minCost"
+    [(maxCost)]="maxCost"
+  ></app-filter>
+  <main class="main">
+    <div class="content">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-stretch">
+        @for (unit of filteredUnits(); track unit.id) {
+        <app-unit-card
+          [unit]="unit"
+          [selectedTechnologies]="selectedTechnologies()"
+          [searchText]="searchText()"
+          [minCost]="minCost()"
+          [maxCost]="maxCost()"
+          (technologyToggled)="toggleTechnology($event)"
+        >
+        </app-unit-card>
+        }
+      </div>
     </div>
-  </div>
-</main>
+  </main>
+</div>

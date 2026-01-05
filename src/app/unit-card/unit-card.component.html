@@ -1,8 +1,8 @@
-<div hlmCard>
+<div hlmCard class="h-full flex flex-col">
   <div hlmCardHeader>
     <h3 hlmCardTitle>{{ unit.name }}</h3>
   </div>
-  <div hlmCardContent class="flex gap-4">
+  <div hlmCardContent class="px-2 flex gap-3 flex-1">
     <div class="flex-shrink-0">
       <img 
         [src]="'units/' + getImageURL(unit.name) + '.jpg'" 
@@ -10,13 +10,36 @@
         class="rounded-lg"
       />
     </div>
-    <div class="flex-1 flex flex-col gap-2">
-      @for (technology of unit.technologies; track technology.id) {
-        <div class="flex justify-between">
-          <span>{{ technology.name }}</span>
-          <span>{{ technology.cost }}</span>
-        </div>
-      }
+    <div class="flex-1">
+      <table class="table-auto w-full border-separate border-spacing-y-1">
+        <tbody>
+          @for (technology of filteredTechnologies; track technology.id) {
+            <tr 
+              (click)="onTechnologyClick(technology.name, $event)"
+              class="cursor-pointer group transition-colors hover:[&>td]:bg-accent/50">
+              <td 
+                [class.border-blue-600]="isSelected(technology.name)"
+                [class.bg-blue-50]="isSelected(technology.name)"
+                [class.dark:border-blue-900]="isSelected(technology.name)"
+                [class.dark:bg-blue-950]="isSelected(technology.name)"
+                class="text-left pr-2 transition-colors rounded-l-lg border-l border-t border-b p-1">
+                {{ technology.name }}
+              </td>
+              <td 
+                [class.border-blue-600]="isSelected(technology.name)"
+                [class.bg-blue-50]="isSelected(technology.name)"
+                [class.dark:border-blue-900]="isSelected(technology.name)"
+                [class.dark:bg-blue-950]="isSelected(technology.name)"
+                class="text-right pl-2 transition-colors rounded-r-lg border-r border-t border-b p-1">
+                <span class="flex items-center gap-1 justify-end">
+                  <img src="/icons/cost.png" alt="cost" class="w-4 h-4">
+                  {{ technology.cost }}
+                </span>
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
     </div>
   </div>
 </div>

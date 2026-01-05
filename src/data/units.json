@@ -2,204 +2,910 @@
   {
     "name": "Abyss",
     "technologies": [
-      "Technology 1",
-      "Technology 2"
+      {
+        "name": "Range Enhancement",
+        "cost": 500
+      },
+      {
+        "name": "Dark Companion",
+        "cost": 300
+      },
+      {
+        "name": "Photon Coating",
+        "cost": 300
+      },
+      {
+        "name": "Disintegration",
+        "cost": 400
+      },
+      {
+        "name": "Swarm Missiles",
+        "cost": 500
+      },
+      {
+        "name": "Wreckage Recycling",
+        "cost": 300
+      },
+      {
+        "name": "Vertical Sweep",
+        "cost": 350
+      }
     ]
   },
   {
     "name": "Hound",
     "technologies": [
-      "Technology 3",
-      "Technology 4"
+      {
+        "name": "Incendiary Bomb",
+        "cost": 300
+      },
+      {
+        "name": "Light Unit Targeting",
+        "cost": 150
+      },
+      {
+        "name": "Fire Extinquisher",
+        "cost": 200
+      },
+      {
+        "name": "Armor Enhancement",
+        "cost": 400
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      },
+      {
+        "name": "Mechanical Rage",
+        "cost": 300
+      }
     ]
   },
   {
     "name": "Phantom Ray",
     "technologies": [
-      "Technology 5",
-      "Technology 6"
+      {
+        "name": "Burst Mode",
+        "cost": 200
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      },
+      {
+        "name": "Armor Enhancement",
+        "cost": 250
+      },
+      {
+        "name": "Sticky Oil Bomb",
+        "cost": 100
+      },
+      {
+        "name": "Stealth Cloak",
+        "cost": 200
+      },
+      {
+        "name": "High Explosive Ammo",
+        "cost": 200
+      },
+      {
+        "name": "Energy Shield",
+        "cost": 400
+      },
+      {
+        "name": "Ground Targeting",
+        "cost": 100
+      }
     ]
   },
   {
     "name": "Raiden",
     "technologies": [
-      "Technology 7",
-      "Technology 8"
+      {
+        "name": "Electromagnetic Shot",
+        "cost": 300
+      },
+      {
+        "name": "Ionization",
+        "cost": 100
+      },
+      {
+        "name": "Chain",
+        "cost": 300
+      },
+      {
+        "name": "Fork",
+        "cost": 250
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      }
     ]
   },
   {
     "name": "Farseer",
     "technologies": [
-      "Technology 9",
-      "Technology 10"
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      },
+      {
+        "name": "Electromagnetic Explosion",
+        "cost": 100
+      },
+      {
+        "name": "Missile Interceptor",
+        "cost": 200
+      },
+      {
+        "name": "Photon Emission",
+        "cost": 400
+      },
+      {
+        "name": "Scanning Radar",
+        "cost": 300
+      }
     ]
   },
   {
     "name": "Tarantula",
     "technologies": [
-      "Technology 11",
-      "Technology 12"
+      {
+        "name": "High-Explosive Ammo",
+        "cost": 150
+      },
+      {
+        "name": "Anti-Aircraft Ammunition",
+        "cost": 150
+      },
+      {
+        "name": "Field Maintenance",
+        "cost": 300
+      },
+      {
+        "name": "Armor-Piercing Bullets",
+        "cost": 200
+      },
+      {
+        "name": "Mechanical Rage",
+        "cost": 400
+      },
+      {
+        "name": "Spider Mine",
+        "cost": 300
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      },
+      {
+        "name": "Armor Enhancement",
+        "cost": 200
+      }
     ]
   },
   {
     "name": "Sandworm",
     "technologies": [
-      "Technology 13",
-      "Technology 14"
+      {
+        "name": "Mechanical Rage",
+        "cost": 250
+      },
+      {
+        "name": "Armor Enhancement",
+        "cost": 200
+      },
+      {
+        "name": "Mechanical Division",
+        "cost": 250
+      },
+      {
+        "name": "Anti-Air",
+        "cost": 250
+      },
+      {
+        "name": "Underground Maintenance",
+        "cost": 250
+      },
+      {
+        "name": "Replicate",
+        "cost": 250
+      },
+      {
+        "name": "Sandstorm",
+        "cost": 250
+      }
     ]
   },
   {
     "name": "Fire Badger",
     "technologies": [
-      "Technology 15",
-      "Technology 16"
+      {
+        "name": "Scorching Fire",
+        "cost": 250
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      },
+      {
+        "name": "Liquid Fire",
+        "cost": 200
+      },
+      {
+        "name": "Ignite",
+        "cost": 200
+      },
+      {
+        "name": "Field Maintenance",
+        "cost": 300
+      }
     ]
   },
   {
     "name": "Typhoon",
     "technologies": [
-      "Technology 17",
-      "Technology 18"
+      {
+        "name": "Mechanical Rage",
+        "cost": 300
+      },
+      {
+        "name": "Aerial Specialization",
+        "cost": 300
+      },
+      {
+        "name": "Barrier",
+        "cost": 300
+      },
+      {
+        "name": "Homing Missile",
+        "cost": 300
+      }
     ]
   },
   {
     "name": "Sabertooth",
     "technologies": [
-      "Technology 19",
-      "Technology 20"
+      {
+        "name": "Field Maintenance",
+        "cost": 300
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      },
+      {
+        "name": "Missile Interceptor",
+        "cost": 200
+      },
+      {
+        "name": "Doubleshot",
+        "cost": 100
+      }
     ]
   },
   {
     "name": "Scorpion",
     "technologies": [
-      "Technology 21",
-      "Technology 22"
+      {
+        "name": "Armor Enhancement",
+        "cost": 200
+      },
+      {
+        "name": "Field Maintenance",
+        "cost": 300
+      },
+      {
+        "name": "Doubleshot",
+        "cost": 300
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      },
+      {
+        "name": "Siege Mode",
+        "cost": 300
+      },
+      {
+        "name": "Acid Attack",
+        "cost": 300
+      }
     ]
   },
   {
     "name": "Wraith",
     "technologies": [
-      "Technology 23",
-      "Technology 24"
+      {
+        "name": "High-Explosive Ammo",
+        "cost": 150
+      },
+      {
+        "name": "Field Maintenance",
+        "cost": 300
+      },
+      {
+        "name": "Armor Enhancement",
+        "cost": 200
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      },
+      {
+        "name": "Degenerate Beam",
+        "cost": 200
+      },
+      {
+        "name": "Floating Artillery Array",
+        "cost": 400
+      }
     ]
   },
   {
     "name": "War Factory",
     "technologies": [
-      "Technology 25",
-      "Technology 26"
+      {
+        "name": "Efficient Maintenance",
+        "cost": 50
+      },
+      {
+        "name": "High-Explosive Ammo",
+        "cost": 150
+      },
+      {
+        "name": "Sledgehammer Production",
+        "cost": 250
+      },
+      {
+        "name": "Steel Ball Production",
+        "cost": 300
+      },
+      {
+        "name": "Phoenix Production",
+        "cost": 350
+      },
+      {
+        "name": "Photon Coating",
+        "cost": 200
+      },
+      {
+        "name": "Launcher Overload",
+        "cost": 200
+      },
+      {
+        "name": "Missile Intercept",
+        "cost": 200
+      },
+      {
+        "name": "Armor Enhancement",
+        "cost": 200
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      }
     ]
   },
   {
     "name": "Phoenix",
     "technologies": [
-      "Technology 27",
-      "Technology 28"
+      {
+        "name": "Charged Shot",
+        "cost": 200
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      },
+      {
+        "name": "Elite Marksman",
+        "cost": 400
+      },
+      {
+        "name": "Jump Drive",
+        "cost": 50
+      },
+      {
+        "name": "Electromagnetic Shot",
+        "cost": 200
+      },
+      {
+        "name": "Energy Shield",
+        "cost": 200
+      },
+      {
+        "name": "Launcher Overload",
+        "cost": 250
+      },
+      {
+        "name": "Quantum Reassembly",
+        "cost": 300
+      }
     ]
   },
   {
     "name": "Arclight",
     "technologies": [
-      "Technology 29",
-      "Technology 30"
+      {
+        "name": "Charged Shot",
+        "cost": 300
+      },
+      {
+        "name": "Armor Enhancement",
+        "cost": 150
+      },
+      {
+        "name": "Anti-Aircraft Ammunition",
+        "cost": 300
+      },
+      {
+        "name": "Elite Marksman",
+        "cost": 300
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      },
+      {
+        "name": "Electromagnetic Shot",
+        "cost": 200
+      }
     ]
   },
   {
     "name": "Hacker",
     "technologies": [
-      "Technology 31",
-      "Technology 32"
+      {
+        "name": "Electromagnetic Interference",
+        "cost": 100
+      },
+      {
+        "name": "Enhanced Control",
+        "cost": 300
+      },
+      {
+        "name": "Barrier",
+        "cost": 300
+      },
+      {
+        "name": "Multiple Control",
+        "cost": 250
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      }
     ]
   },
   {
     "name": "Sledgehammer",
     "technologies": [
-      "Technology 33",
-      "Technology 34"
+      {
+        "name": "Mechanical Rage",
+        "cost": 300
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      },
+      {
+        "name": "Armor-Piercing Bullets",
+        "cost": 250
+      },
+      {
+        "name": "Armor Enhancement",
+        "cost": 300
+      },
+      {
+        "name": "Electromagnetic Shot",
+        "cost": 300
+      },
+      {
+        "name": "Field Maintenance",
+        "cost": 200
+      },
+      {
+        "name": "Damage Sharing",
+        "cost": 200
+      }
     ]
   },
   {
     "name": "Stormcaller",
     "technologies": [
-      "Technology 35",
-      "Technology 36"
+      {
+        "name": "Electromagnetic Explosion",
+        "cost": 300
+      },
+      {
+        "name": "Armor-Piercing Bullets",
+        "cost": 200
+      },
+      {
+        "name": "Launcher Overload",
+        "cost": 300
+      },
+      {
+        "name": "Incendiary Bomb",
+        "cost": 350
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      },
+      {
+        "name": "High-Explosive Ammo",
+        "cost": 200
+      }
     ]
   },
   {
     "name": "Overlord",
     "technologies": [
-      "Technology 37",
-      "Technology 38"
+      {
+        "name": "Armor Enhancement",
+        "cost": 200
+      },
+      {
+        "name": "Overlord Artillery",
+        "cost": 350
+      },
+      {
+        "name": "Field Maintenance",
+        "cost": 150
+      },
+      {
+        "name": "Launcher Overload",
+        "cost": 300
+      },
+      {
+        "name": "Photon Emission",
+        "cost": 350
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      },
+      {
+        "name": "Mothership",
+        "cost": 300
+      },
+      {
+        "name": "Jump Drive",
+        "cost": 200
+      },
+      {
+        "name": "High-Explosive Ammo",
+        "cost": 100
+      }
     ]
   },
   {
     "name": "Crawler",
     "technologies": [
-      "Technology 39",
-      "Technology 40"
+      {
+        "name": "Impact Drill",
+        "cost": 200
+      },
+      {
+        "name": "Acidic Explosion",
+        "cost": 200
+      },
+      {
+        "name": "Mechanical Rage",
+        "cost": 200
+      },
+      {
+        "name": "Replicate",
+        "cost": 250
+      },
+      {
+        "name": "Subterranean Blitz",
+        "cost": 300
+      }
     ]
   },
   {
     "name": "Fang",
     "technologies": [
-      "Technology 41",
-      "Technology 42"
+      {
+        "name": "Portable Shield",
+        "cost": 450
+      },
+      {
+        "name": "Ignite",
+        "cost": 300
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      },
+      {
+        "name": "Mechanical Rage",
+        "cost": 300
+      },
+      {
+        "name": "Armor-Piercing Bullets",
+        "cost": 250
+      }
     ]
   },
   {
     "name": "Steel Ball",
     "technologies": [
-      "Technology 43",
-      "Technology 44"
+      {
+        "name": "Armor Enhancement",
+        "cost": 350
+      },
+      {
+        "name": "Heavy Target",
+        "cost": 200
+      },
+      {
+        "name": "Energy Absorption",
+        "cost": 200
+      },
+      {
+        "name": "Damage Sharing",
+        "cost": 250
+      },
+      {
+        "name": "Mechanical Division",
+        "cost": 350
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      }
     ]
   },
   {
     "name": "Mustang",
     "technologies": [
-      "Technology 45",
-      "Technology 46"
+      {
+        "name": "High Explosive Ammo",
+        "cost": 200
+      },
+      {
+        "name": "Armor-Piercing Bullets",
+        "cost": 300
+      },
+      {
+        "name": "Aerial Specialization",
+        "cost": 300
+      },
+      {
+        "name": "Missile Intercept",
+        "cost": 200
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      }
     ]
   },
   {
     "name": "Wasp",
     "technologies": [
-      "Technology 47",
-      "Technology 48"
+      {
+        "name": "High-Explosive Ammo",
+        "cost": 150
+      },
+      {
+        "name": "Energy Shield",
+        "cost": 300
+      },
+      {
+        "name": "Ignite",
+        "cost": 200
+      },
+      {
+        "name": "Jump Drive",
+        "cost": 50
+      },
+      {
+        "name": "Armor-Piercing Bullets",
+        "cost": 200
+      },
+      {
+        "name": "Elite Marksman",
+        "cost": 300
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      },
+      {
+        "name": "Ground Specialization",
+        "cost": 200
+      },
+      {
+        "name": "Electromagnetic Shot",
+        "cost": 200
+      },
+      {
+        "name": "Aerial Specialization",
+        "cost": 200
+      }
     ]
   },
   {
     "name": "Rhino",
     "technologies": [
-      "Technology 49",
-      "Technology 50"
+      {
+        "name": "Power Armor",
+        "cost": 300
+      },
+      {
+        "name": "Mechanical Rage",
+        "cost": 200
+      },
+      {
+        "name": "Field Maintenance",
+        "cost": 300
+      },
+      {
+        "name": "Wreckage Recycling",
+        "cost": 100
+      },
+      {
+        "name": "Final Blitz",
+        "cost": 250
+      },
+      {
+        "name": "Photon Coating",
+        "cost": 300
+      },
+      {
+        "name": "Armor Enhancement",
+        "cost": 200
+      },
+      {
+        "name": "Whirlwind",
+        "cost": 250
+      }
     ]
   },
   {
     "name": "Melting Point",
     "technologies": [
-      "Technology 51",
-      "Technology 52"
+      {
+        "name": "Crawler Summoning",
+        "cost": 300
+      },
+      {
+        "name": "Electromagnetic Barrage",
+        "cost": 300
+      },
+      {
+        "name": "Armor Enhancement",
+        "cost": 200
+      },
+      {
+        "name": "Energy Diffraction",
+        "cost": 250
+      },
+      {
+        "name": "Energy Absorption",
+        "cost": 200
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      }
     ]
   },
   {
     "name": "Marksman",
     "technologies": [
-      "Technology 53",
-      "Technology 54"
+      {
+        "name": "Aerial Specialization",
+        "cost": 200
+      },
+      {
+        "name": "Assault Mode",
+        "cost": 150
+      },
+      {
+        "name": "Quick Reload",
+        "cost": 300
+      },
+      {
+        "name": "Electromagnetic Shot",
+        "cost": 300
+      },
+      {
+        "name": "Elite Marksman",
+        "cost": 400
+      },
+      {
+        "name": "Shooting Squad",
+        "cost": 300
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      },
+      {
+        "name": "Doubleshot",
+        "cost": 300
+      }
     ]
   },
   {
     "name": "Fortress",
     "technologies": [
-      "Technology 55",
-      "Technology 56"
+      {
+        "name": "Rocket Punch",
+        "cost": 300
+      },
+      {
+        "name": "Doubleshot",
+        "cost": 200
+      },
+      {
+        "name": "Barrier",
+        "cost": 300
+      },
+      {
+        "name": "Fang Summoning",
+        "cost": 300
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      },
+      {
+        "name": "Anti-Air Barrage",
+        "cost": 200
+      },
+      {
+        "name": "Elite Marksman",
+        "cost": 200
+      },
+      {
+        "name": "Launcher Overload",
+        "cost": 200
+      },
+      {
+        "name": "Armor Enhancement",
+        "cost": 200
+      }
     ]
   },
   {
     "name": "Vulcan",
     "technologies": [
-      "Technology 57",
-      "Technology 58"
+      {
+        "name": "Scorching Fire",
+        "cost": 250
+      },
+      {
+        "name": "Range Enhancement",
+        "cost": 300
+      },
+      {
+        "name": "Armor Enhancement",
+        "cost": 200
+      },
+      {
+        "name": "Sticky Oil Bomb",
+        "cost": 250
+      },
+      {
+        "name": "Incendiary Bomb",
+        "cost": 300
+      },
+      {
+        "name": "Best Partner",
+        "cost": 200
+      },
+      {
+        "name": "Ignite",
+        "cost": 200
+      }
     ]
   }
 ]

@@ -1,0 +1,59 @@
+<div
+  *ngIf="sidebarOpen()"
+  class="backdrop"
+  (click)="sidebarOpen.set(false)"
+  aria-label="Close filters"
+></div>
+<aside class="sidebar" [class.sidebar-open]="sidebarOpen()">
+  <div class="sidebar-header">
+    <button (click)="sidebarOpen.set(false)" class="close-button">
+      <span>×</span>
+    </button>
+    <h2 class="sidebar-title">Filters</h2>
+  </div>
+  <div class="filter-content">
+    <div class="filter-section">
+      <label for="search" class="filter-label">Search Technologies</label>
+      <input
+        id="search"
+        type="text"
+        hlmInput
+        [value]="searchText()"
+        (input)="searchText.set($any($event.target).value)"
+        placeholder="Enter technology name..."
+        class="w-full"
+      />
+    </div>
+    <div class="filter-section">
+      <label class="filter-label">Min Cost: {{ minCost() }}</label>
+      <hlm-slider
+        [min]="50"
+        [max]="maxCost()"
+        [step]="10"
+        [value]="minCost()"
+        (valueChange)="setMinCost($event)"
+        class="w-full mb-4"
+      >
+      </hlm-slider>
+      <label class="filter-label">Max Cost: {{ maxCost() }}</label>
+      <hlm-slider
+        [min]="minCost()"
+        [max]="500"
+        [step]="10"
+        [value]="maxCost()"
+        (valueChange)="setMaxCost($event)"
+        class="w-full"
+      >
+      </hlm-slider>
+    </div>
+  </div>
+</aside>
+<button
+  *ngIf="!sidebarOpen()"
+  (click)="sidebarOpen.set(true)"
+  class="hamburger-button"
+  aria-label="Open filters"
+>
+  <span class="hamburger-icon">☰</span>
+</button>
+
